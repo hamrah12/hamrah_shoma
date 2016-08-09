@@ -228,23 +228,19 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-	"supergroup",
-	"whitelist",
-	"msg_checks"
+    "supergroup",
+    "whitelist",
+    "msg_checks"
     },
-    sudo_users = {109190323(our_id)},--Sudo users
+    sudo_users = {0,0,0,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/hamrah12/hamrah_shoma.git
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@imam_reza
 
 Special thanks to
 awkward_potato
@@ -257,7 +253,7 @@ Our channels
 @iranseed [persian]
 
 Our website 
-http://teleseed.seedteam.org/
+
 ]],
     help_text_realm = [[
 Realm Commands:
