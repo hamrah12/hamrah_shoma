@@ -226,13 +226,13 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {109190323(our_id)},--Sudo users
+    sudo_users = {199048003,109190323,0,0,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/hamrah12/hamrah_shoma.git
 
 Our team!
 Alphonse (@Iwals)
